@@ -1,0 +1,10 @@
+address,cite,dfn,em,var{font-style: normal;}
+code,kbd,pre,samp{font-family: couricrnew,courier,monospace}
+small{font-size: 12px;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: inherit;}
+sup{vertical-align: text-top;}
+sub{vertical-align: text-bottom;}
+legend{color:#000}
+fieldset,img{border: 0;}
+table{border-collapse: collapse;border-spacing: 0;}
