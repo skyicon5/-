@@ -609,3 +609,229 @@ body{
     width: 84px;
     height: 561px;
 }
+
+.swiper-controls{
+    position: relative;
+    right: 0;
+    bottom: 34px;
+    float: right;
+}
+.swiper-flashsale-prev{
+        display: inline-block;
+        width: 24px;
+        height: 16px;
+        padding: 3px 5px;
+        margin-left: -1px;
+        border: 1px solid #e0e0e0;
+        font-size: 16px;
+        line-height: 16px;
+        -webkit-transition: color .5s;
+        transition: color .5s;
+        color: #b0b0b0;
+        text-align: center;
+        cursor: pointer;
+}
+.swiper-flashsale-next{
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    padding: 3px 5px;
+    margin-left: -4px;
+    border: 1px solid #e0e0e0;
+    border-left: none;
+    font-size: 16px;
+    line-height: 16px;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+    color: #b0b0b0;
+    text-align: center;
+    cursor: pointer;
+}
+.swiper-flashsale-prev:hover,
+.swiper-flashsale-next:hover
+{
+    color: #ff6700;
+}
+.xm-plain-box{
+    height: 398px;
+    
+}
+.xm-plain-box .row{
+    height: 335px;
+    position: relative;
+}
+.xm-plain-box .row .flashsale-countdown{
+    width: 234px;
+    height: 296px;
+    background-color: #F1EDED;
+    border-top: 1px solid #E53935;
+    padding-top: 39px;
+}
+.xm-plain-box .row .flashsale-countdown .round{
+    text-align: center;
+    color: #EF3A3B;
+    font-size: 21px;
+    padding-top: 15px;
+}
+.xm-plain-box .row .flashsale-countdown .shandian{
+    margin: 25px auto;
+    width: 34px;
+    height: 53px;
+    background:url(../img/shandian.jpg);  
+}
+.xm-plain-box .row .flashsale-countdown .desc{
+    text-align: center;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+}
+.xm-plain-box .row .flashsale-list{
+    width: 3000px;
+    height: 335px;
+    position: absolute;
+    top: 0;
+    left: 248px;
+}
+.time{
+	color:#fff;
+	font-size:28px;
+	background: #605751;
+	position: relative;
+	z-index: 1;
+
+
+}.time1{
+	color:#fff;
+	font-size:28px;
+	background: #605751;
+	position: relative;
+}
+.time2{
+	color:#fff;
+	font-size:28px;
+	background: #605751;
+	position: relative;
+	text-align: center;
+}
+.ai{
+	margin-top: 100px;
+	margin-right: 50px;
+}
+.maohao{
+	font-size:28px;
+	margin-top: -75px;
+    position: absolute;
+    left: 82px;
+}
+.maohao1{
+	font-size:28px;
+	margin-top:-75px;
+	position: absolute;
+	left: 146px;
+}
+.kuang{
+	width: 46px;
+	height: 40px;
+	background:#605751;
+	margin-left: 30px;
+	margin-top:-75px;
+    position: absolute;
+    text-align: center;
+}
+.kuang1{
+	width: 46px;
+	height: 40px;
+	background:#605751;
+	margin-left: 95px;
+	margin-top:-75px;
+    position: absolute;
+    text-align: center;
+}
+.kuang2{
+	width: 46px;
+	height: 40px;
+	background:#605751;
+	margin-left: 160px;
+	margin-top: -75px;
+    position: absolute;
+    text-align: center;
+}
+.time10{
+	font-size: 21px;
+	color: #ef3a3b;
+	padding-top: 15px;
+}
+.flashsale-list{
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto; 
+}
+.swiper-wrapper{
+    height: 335px;
+}
+.swiper-wrapper .swiper-slide{
+    width: 234px;
+    height: 335px;
+    float: left;
+    background-color: #fff;
+    border-top: 1px solid red;
+}
+.swiper-wrapper .swiper-slide a{
+    display: block;
+    height: 296px;
+    padding-top: 39px;
+    position: relative;
+}
+.swiper-wrapper .swiper-slide a .content{
+    display: block;
+}
+.swiper-wrapper .swiper-slide a .thumb{
+    display: block;
+    width: 160px;
+    margin: 0 auto 22px;
+}
+.swiper-wrapper .swiper-slide a .thumb img{
+    width: 160px;
+    height: 160px;
+}
+.swiper-wrapper .swiper-slide a .title{
+    margin: 0 20px 3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    color: #212121;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.swiper-wrapper .swiper-slide a .desc{
+    text-align: center;
+    text-overflow: ellipsis;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.swiper-wrapper .swiper-slide a .price{
+    margin-top: 20px;
+    color: #ff6700;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+.swiper-wrapper .swiper-slide a del{
+    color: #b0b0b0;
+}
+.swiper-wrapper li{
+    margin-right: 14px;
+}
+.swiper-wrapper li:last-child{
+    margin-right: 0;
+}
+.swiper-wrapper li:nth-child(1){
+    border-top: 1px solid orange;
+}
+.swiper-wrapper li:nth-child(2){
+    border-top: 1px solid green;
+}
+.swiper-wrapper li:nth-child(3){
+    border-top: 1px solid blue;
+}
